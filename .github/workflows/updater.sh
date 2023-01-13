@@ -17,7 +17,7 @@
 current_version=$(cat manifest.json | jq -j '.version|split("~")[0]')
 repo=$(cat manifest.json | jq -j '.upstream.code|split("https://github.com/")[1]')
 # Some jq magic is needed, because the latest upstream release is not always the latest version (e.g. security patches for older versions)
-version=$(curl --silent "https://api.github.com/repos/$repo/releases" | jq -r '.[] | select( .prerelease != true) | .tag_name | select( startswith("v7") )' | sort -V | tail -1)
+version=$(curl --silent "https://api.github.com/repos/$repo/releases" | jq -r '.[] | select( .prerelease != true) | .tag_name | select( startswith("v8") )' | sort -V | tail -1)
 
 # Later down the script, we assume the version has only digits and dots
 # Sometimes the release name starts with a "v", so let's filter it out.
@@ -105,7 +105,8 @@ done
 #=================================================
 
 # Replace new version in manifest
-echo "$(jq -s --indent 4 ".[] | .version = \"$version~ynh1\"" manifest.json)" > manifest.json
+admindoc="https://www.elastic.co/guide/en/elasticsearch/reference/$(echo $version | grep -Po "^\d+\.\d+")/elasticsearch-intro.html"
+echo "$(jq -s --indent 4 ".[] | .version = \"$version~ynh1\" | .upstream.admindoc = \"$admindoc\"" manifest.json)" > manifest.json
 
 # No need to update the README, yunohost-bot takes care of it
 

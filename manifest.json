@@ -1,6 +1,6 @@
 {
-    "name": "ElasticSearch 7",
-    "id": "elasticsearch7",
+    "name": "ElasticSearch 8",
+    "id": "elasticsearch8",
     "packaging_format": 1,
     "description": {
         "en": "Distributed and RESTful search engine.",
