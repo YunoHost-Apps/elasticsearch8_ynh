@@ -19,7 +19,7 @@ Elasticsearch is the distributed, RESTful search and analytics engine at the hea
 To learn more about Elasticsearch’s features and capabilities, see the [product page](https://www.elastic.co/products/elasticsearch).
 
 
-**Shipped version:** 8.6.0~ynh1
+**Shipped version:** 8.6.0~ynh2
 
 **Demo:** https://www.elastic.co/demos
 ## Disclaimers / important information
@@ -29,6 +29,10 @@ To learn more about Elasticsearch’s features and capabilities, see the [produc
  - Currently the security is disabled
  - Therefore, the package is configured to remain not public for now (i.e. not accessible through the web, the apps depending on it should be installed on the same server)
  - Not scalable for now
+
+## :red_circle: Antifeatures
+
+- **Not totally free upstream**: The packaged app is under an overall free licence, but with clauses that restrict its use.
 
 ## Documentation and resources
 
