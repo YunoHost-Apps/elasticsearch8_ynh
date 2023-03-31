@@ -6,13 +6,13 @@
         "en": "Distributed and RESTful search engine.",
         "fr": "Moteur de recherche RESTful."
     },
-    "version": "8.6.2~ynh1",
+    "version": "8.7.0~ynh1",
     "url": "https://github.com/elastic/elasticsearch",
     "upstream": {
         "license": "SSPL-1.0",
         "website": "https://elastic.co",
         "demo": "https://www.elastic.co/demos",
-        "admindoc": "https://www.elastic.co/guide/en/elasticsearch/reference/8.6/elasticsearch-intro.html",
+        "admindoc": "https://www.elastic.co/guide/en/elasticsearch/reference/8.7/elasticsearch-intro.html",
         "code": "https://github.com/elastic/elasticsearch"
     },
     "license": "SSPL-1.0",
