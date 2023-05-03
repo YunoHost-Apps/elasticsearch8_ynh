@@ -20,7 +20,7 @@ Elasticsearch is the distributed, RESTful search and analytics engine at the hea
 To learn more about Elasticsearch’s features and capabilities, see the [product page](https://www.elastic.co/products/elasticsearch).
 
 
-**Version incluse :** 8.7.0~ynh1
+**Version incluse :** 8.7.1~ynh1
 
 **Démo :** https://www.elastic.co/demos
 ## Avertissements / informations importantes
