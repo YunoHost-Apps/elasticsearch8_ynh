@@ -1,5 +1,5 @@
-SOURCE_URL=https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.7.0-linux-x86_64.tar.gz
-SOURCE_SUM=2e22f54f74792726f1ade4311ecca8079bfd6c1f5a7d15670b7e438782ae578d
+SOURCE_URL=https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.7.1-linux-x86_64.tar.gz
+SOURCE_SUM=ce79556ae554662ed8b8743846539fe913dd09a1771c01062bb93c7a7895545b
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
