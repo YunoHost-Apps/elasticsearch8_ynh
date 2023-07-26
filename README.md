@@ -20,7 +20,7 @@ Elasticsearch is the distributed, RESTful search and analytics engine at the hea
 To learn more about Elasticsearch’s features and capabilities, see the [product page](https://www.elastic.co/products/elasticsearch).
 
 
-**Shipped version:** 8.8.0~ynh1
+**Shipped version:** 8.9.0~ynh1
 
 **Demo:** https://www.elastic.co/demos
 ## Disclaimers / important information
@@ -38,7 +38,7 @@ To learn more about Elasticsearch’s features and capabilities, see the [produc
 ## Documentation and resources
 
 * Official app website: <https://elastic.co>
-* Official admin documentation: <https://www.elastic.co/guide/en/elasticsearch/reference/8.8/elasticsearch-intro.html>
+* Official admin documentation: <https://www.elastic.co/guide/en/elasticsearch/reference/8.9/elasticsearch-intro.html>
 * Upstream app code repository: <https://github.com/elastic/elasticsearch>
 * YunoHost documentation for this app: <https://yunohost.org/app_elasticsearch8>
 * Report a bug: <https://github.com/YunoHost-Apps/elasticsearch8_ynh/issues>
