@@ -14,32 +14,32 @@ source /usr/share/yunohost/helpers
 #=================================================
 
 # Exit if an error occurs during the execution of the script
-ynh_abort_if_errors
+#REMOVEME? ynh_abort_if_errors
 
 #=================================================
 # RETRIEVE ARGUMENTS FROM THE MANIFEST
 #=================================================
 
-app=$YNH_APP_INSTANCE_NAME
+#REMOVEME? app=$YNH_APP_INSTANCE_NAME
 
 #=================================================
 # CHECK IF THE APP CAN BE INSTALLED WITH THESE ARGS
 #=================================================
-ynh_script_progression --message="Validating installation parameters..." --weight=1
+#REMOVEME? ynh_script_progression --message="Validating installation parameters..." --weight=1
 
-final_path=/opt/yunohost/$app
-test ! -e "$final_path" || ynh_die --message="This path already contains a folder"
+#REMOVEME? install_dir=/opt/yunohost/$app
+#REMOVEME? test ! -e "$install_dir" || ynh_die --message="This path already contains a folder"
 
 #=================================================
 # STANDARD MODIFICATIONS
 #=================================================
 # FIND AND OPEN A PORT
 #=================================================
-ynh_script_progression --message="Finding an available port..." --weight=1
+#REMOVEME? ynh_script_progression --message="Finding an available port..." --weight=1
 
 # Find an available port
-port=$(ynh_find_port --port=9200)
-ynh_app_setting_set --app=$app --key=port --value=$port
+#REMOVEME? port=$(ynh_find_port --port=9200)
+#REMOVEME? ynh_app_setting_set --app=$app --key=port --value=$port
 
 #=================================================
 # DEFAULT VALUES FOR CONFIGURATION
@@ -54,37 +54,37 @@ ynh_app_setting_set --app=$app --key=xmx --value=$xmx
 #=================================================
 # CREATE DEDICATED USER
 #=================================================
-ynh_script_progression --message="Configuring system user..." --weight=1
+#REMOVEME? ynh_script_progression --message="Configuring system user..." --weight=1
 
 # Create a system user
-ynh_system_user_create --username=$app --home_dir="$final_path"
+#REMOVEME? ynh_system_user_create --username=$app --home_dir="$install_dir"
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 ynh_script_progression --message="Setting up source files..." --weight=15
 
-ynh_app_setting_set --app=$app --key=final_path --value=$final_path
+#REMOVEME? ynh_app_setting_set --app=$app --key=install_dir --value=$install_dir
 # Download, check integrity, uncompress and patch the source from app.src
-ynh_setup_source --dest_dir="$final_path" --source_id="$YNH_ARCH"
+ynh_setup_source --dest_dir="$install_dir" 
 
-chmod 750 "$final_path"
-chmod -R o-rwx "$final_path"
-chown -R $app:$app "$final_path"
+chmod 750 "$install_dir"
+chmod -R o-rwx "$install_dir"
+chown -R $app:$app "$install_dir"
 
 #=================================================
 # CREATE DATA DIRECTORY
 #=================================================
 ynh_script_progression --message="Creating a data directory..." --weight=1
 
-datadir=/home/yunohost.app/$app
-ynh_app_setting_set --app=$app --key=datadir --value=$datadir
+#REMOVEME? data_dir=/home/yunohost.app/$app
+#REMOVEME? ynh_app_setting_set --app=$app --key=data_dir --value=$data_dir
 
-mkdir -p $datadir
+mkdir -p $data_dir
 
-chmod 750 "$datadir"
-chmod -R o-rwx "$datadir"
-chown -R $app:www-data "$datadir"
+chmod 750 "$data_dir"
+chmod -R o-rwx "$data_dir"
+chown -R $app:www-data "$data_dir"
 
 
 #=================================================
@@ -92,11 +92,11 @@ chown -R $app:www-data "$datadir"
 #=================================================
 ynh_script_progression --message="Adding the configuration files..." --weight=1
 
-ynh_add_config --template="elasticsearch.yml" --destination="$final_path/config/elasticsearch.yml"
-ynh_add_config --template="jvm.options" --destination="$final_path/config/jvm.options.d/yunohost.options"
+ynh_add_config --template="elasticsearch.yml" --destination="$install_dir/config/elasticsearch.yml"
+ynh_add_config --template="jvm.options" --destination="$install_dir/config/jvm.options.d/yunohost.options"
 
-chmod 400 "$final_path/config/elasticsearch.yml" "$final_path/config/jvm.options.d/yunohost.options"
-chown $app:$app "$final_path/config/elasticsearch.yml" "$final_path/config/jvm.options.d/yunohost.options"
+chmod 400 "$install_dir/config/elasticsearch.yml" "$install_dir/config/jvm.options.d/yunohost.options"
+chown $app:$app "$install_dir/config/elasticsearch.yml" "$install_dir/config/jvm.options.d/yunohost.options"
 
 
 #=================================================
