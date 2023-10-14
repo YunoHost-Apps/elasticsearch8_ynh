@@ -1,5 +1,5 @@
 [Unit]
-Description=ElasticSearch - Distributed and RESTful search engine
+Description=ElasticSearch: Distributed and RESTful search engine
 Documentation=https://elastic.co
 After=network.target
 
