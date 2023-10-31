@@ -40,6 +40,7 @@ To learn more about Elasticsearch’s features and capabilities, see the [produc
 * Official app website: <https://elastic.co>
 * Official admin documentation: <https://www.elastic.co/guide/en/elasticsearch/reference/8.10/elasticsearch-intro.html>
 * Upstream app code repository: <https://github.com/elastic/elasticsearch>
+* YunoHost Store: <https://apps.yunohost.org/app/elasticsearch8>
 * Report a bug: <https://github.com/YunoHost-Apps/elasticsearch8_ynh/issues>
 
 ## Developer info
