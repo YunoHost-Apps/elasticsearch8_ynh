@@ -19,7 +19,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 Elasticsearch est le moteur de recherche et d'analyse distribué et RESTful au cœur de la [Elastic Stack](https://www.elastic.co/products). Vous pouvez utiliser Elasticsearch pour stocker, rechercher et gérer des données pour les journaux, les métriques, le backend de recherche, la surveillance des applications et la sécurité des points de terminaison.
 Pour en savoir plus sur les fonctionnalités et capacités d'Elasticsearch, consultez la [page produit](https://www.elastic.co/products/elasticsearch).
 
-**Version incluse :** 8.11.1~ynh1
+**Version incluse :** 8.10.3~ynh1
 
 **Démo :** https://www.elastic.co/demos
 ## :red_circle: Fonctions indésirables
@@ -29,7 +29,7 @@ Pour en savoir plus sur les fonctionnalités et capacités d'Elasticsearch, cons
 ## Documentations et ressources
 
 * Site officiel de l’app : <https://elastic.co>
-* Documentation officielle de l’admin : <https://www.elastic.co/guide/en/elasticsearch/reference/8.11/elasticsearch-intro.html>
+* Documentation officielle de l’admin : <https://www.elastic.co/guide/en/elasticsearch/reference/8.10/elasticsearch-intro.html>
 * Dépôt de code officiel de l’app : <https://github.com/elastic/elasticsearch>
 * YunoHost Store: <https://apps.yunohost.org/app/elasticsearch8>
 * Signaler un bug : <https://github.com/YunoHost-Apps/elasticsearch8_ynh/issues>
