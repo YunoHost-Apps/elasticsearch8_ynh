@@ -23,14 +23,6 @@ To learn more about Elasticsearch’s features and capabilities, see the [produc
 **Shipped version:** 8.11.1~ynh1
 
 **Demo:** https://www.elastic.co/demos
-## Disclaimers / important information
-
-### Limitations
- - **Not totally free**: Licensed under SSPL, see for more information: <https://en.wikipedia.org/wiki/Server_Side_Public_License>
- - Currently the security is disabled
- - Therefore, the package is configured to remain not public for now (i.e. not accessible through the web, the apps depending on it should be installed on the same server)
- - Not scalable for now
-
 ## :red_circle: Antifeatures
 
 - **Not totally free upstream**: The packaged app is under an overall free licence, but with clauses that restrict its use.
@@ -38,7 +30,7 @@ To learn more about Elasticsearch’s features and capabilities, see the [produc
 ## Documentation and resources
 
 * Official app website: <https://elastic.co>
-* Official admin documentation: <https://www.elastic.co/guide/en/elasticsearch/reference/8.11/elasticsearch-intro.html>
+* Official admin documentation: <https://www.elastic.co/guide/en/elasticsearch/reference/8.10/elasticsearch-intro.html>
 * Upstream app code repository: <https://github.com/elastic/elasticsearch>
 * YunoHost Store: <https://apps.yunohost.org/app/elasticsearch8>
 * Report a bug: <https://github.com/YunoHost-Apps/elasticsearch8_ynh/issues>
