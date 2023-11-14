@@ -13,7 +13,7 @@ maintainers = ["fflorent"]
 license = "SSPL-1.0"
 website = "https://elastic.co"
 demo = "https://www.elastic.co/demos"
-admindoc = "https://www.elastic.co/guide/en/elasticsearch/reference/8.10/elasticsearch-intro.html"
+admindoc = "https://www.elastic.co/guide/en/elasticsearch/reference/8.11/elasticsearch-intro.html"
 code = "https://github.com/elastic/elasticsearch"
 
 [integration]
