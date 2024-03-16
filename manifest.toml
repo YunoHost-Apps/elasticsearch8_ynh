@@ -37,6 +37,8 @@ ram.runtime = "50M"
         arm64.sha256 = "1728d26f398b58156411f80b871a2d5a0825ae446a8bec70a01a952fe7c707cb"
         amd64.url = "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.11.1-linux-x86_64.tar.gz"
         amd64.sha256 = "dd8572e4f50ffbe4079cce315b17c25e3cebaa02fd7eb134d2aa222703459780"
+        autoupdate.upstream = "https://github.com/elastic/elasticsearch/"
+        autoupdate.strategy = "latest_github_release"
 
     [resources.system_user]
 
