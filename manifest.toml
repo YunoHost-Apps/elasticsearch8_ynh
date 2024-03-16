@@ -5,7 +5,7 @@ name = "ElasticSearch 8"
 description.en = "Distributed and RESTful search engine"
 description.fr = "Moteur de recherche RESTful"
 
-version = "8.11.1~ynh2"
+version = "8.11.1~ynh3"
 
 maintainers = ["fflorent"]
 
