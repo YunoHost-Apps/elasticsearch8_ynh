@@ -38,7 +38,7 @@ then
 	ynh_script_progression --message="Upgrading source files..." --weight=20
 
 	# Download, check integrity, uncompress and patch the source from app.src
-	ynh_setup_source --dest_dir="$install_dir" --full_replace=1 --keep="config/elasticsearch.yml config/jvm.options.d/yunohost.conf"
+	ynh_setup_source --dest_dir="$install_dir" --full_replace=1
 fi
 
 chmod -R o-rwx "$install_dir"
