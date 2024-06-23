@@ -24,7 +24,7 @@ Pour en savoir plus sur les fonctionnalités et capacités d'Elasticsearch, cons
 **Démo :** <https://www.elastic.co/demos>
 ## :red_circle: Anti-fonctionnalités
 
-- **Application sous licence libre restreinte**: L'application packagée est sous une licence globalement libre, mais avec des clauses qui pourraient restreindre son utilisation.
+- **Application sous licence libre restreinte **: L'application packagée est sous une licence globalement libre, mais avec des clauses qui pourraient restreindre son utilisation.
 
 ## Documentations et ressources
 

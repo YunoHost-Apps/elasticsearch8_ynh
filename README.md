@@ -25,7 +25,7 @@ To learn more about Elasticsearch’s features and capabilities, see the [produc
 **Demo:** <https://www.elastic.co/demos>
 ## :red_circle: Antifeatures
 
-- **Not totally free upstream**: The packaged app is under an overall free licence, but with clauses that restrict its use.
+- **Not totally free upstream**: The packaged app is under an overall free license, but with clauses that may restrict its use.
 
 ## Documentation and resources
 
