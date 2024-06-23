@@ -39,9 +39,10 @@ ram.runtime = "50M"
         amd64.sha256 = "dd8572e4f50ffbe4079cce315b17c25e3cebaa02fd7eb134d2aa222703459780"
 
         # This is only for notification purposes! Generated PRs will be invalid.
-        autoupdate.strategy = "latest_github_release"
+        autoupdate.strategy = "latest_github_tag"
         autoupdate.asset.amd64 = "tarball"
         autoupdate.asset.arm64 = "tarball"
+        autoupdate.needs_manual_tweaks = true
 
     [resources.system_user]
 
