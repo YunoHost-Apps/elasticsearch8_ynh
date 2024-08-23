@@ -5,7 +5,7 @@ Il NE doit PAS être modifié à la main.
 
 # ElasticSearch 8 pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/elasticsearch8.svg)](https://dash.yunohost.org/appci/app/elasticsearch8) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/elasticsearch8.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/elasticsearch8.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/elasticsearch8.svg)](https://ci-apps.yunohost.org/ci/apps/elasticsearch8/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/elasticsearch8.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/elasticsearch8.maintain.svg)
 
 [![Installer ElasticSearch 8 avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=elasticsearch8)
 

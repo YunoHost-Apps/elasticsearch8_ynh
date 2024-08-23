@@ -5,7 +5,7 @@ EZ editatu eskuz.
 
 # ElasticSearch 8 YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/elasticsearch8.svg)](https://dash.yunohost.org/appci/app/elasticsearch8) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/elasticsearch8.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/elasticsearch8.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/elasticsearch8.svg)](https://ci-apps.yunohost.org/ci/apps/elasticsearch8/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/elasticsearch8.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/elasticsearch8.maintain.svg)
 
 [![Instalatu ElasticSearch 8 YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=elasticsearch8)
 
