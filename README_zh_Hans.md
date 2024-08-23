@@ -5,7 +5,7 @@
 
 # YunoHost 上的 ElasticSearch 8
 
-[![集成程度](https://dash.yunohost.org/integration/elasticsearch8.svg)](https://dash.yunohost.org/appci/app/elasticsearch8) ![工作状态](https://ci-apps.yunohost.org/ci/badges/elasticsearch8.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/elasticsearch8.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/elasticsearch8.svg)](https://ci-apps.yunohost.org/ci/apps/elasticsearch8/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/elasticsearch8.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/elasticsearch8.maintain.svg)
 
 [![使用 YunoHost 安装 ElasticSearch 8](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=elasticsearch8)
 
