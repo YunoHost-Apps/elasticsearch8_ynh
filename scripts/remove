@@ -31,7 +31,7 @@ ynh_remove_logrotate
 if [ -e "/etc/sysctl.d/90-max_map_count-elasticsearch.conf" ]; then
 	ynh_secure_remove --file="/etc/sysctl.d/90-max_map_count-elasticsearch.conf"
 	# Reload the kernel configuration.
-	if ! [ "${container:-}" = "lxc" ] # lxc doesn't allow sysctl to play with kernel options.
+	if ! [ "$(systemd-detect-virt)" == "lxc" ] # lxc doesn't allow sysctl to play with kernel options.
 	then
 		sysctl --system
 	fi
