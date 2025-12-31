@@ -5,7 +5,7 @@ name = "ElasticSearch 8"
 description.en = "Distributed and RESTful search engine"
 description.fr = "Moteur de recherche RESTful"
 
-version = "8.11.1~ynh3"
+version = "9.2.3~ynh1"
 
 maintainers = ["fflorent"]
 
@@ -17,12 +17,12 @@ admindoc = "https://www.elastic.co/guide/en/elasticsearch/reference/8.11/elastic
 code = "https://github.com/elastic/elasticsearch"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 12.1.17"
+helpers_version = "2.1"
 architectures = ["amd64", "arm64"]
 multi_instance = true
 
 ldap = "not_relevant"
-
 sso = "not_relevant"
 
 disk = "50M"
@@ -33,10 +33,10 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        arm64.url = "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.11.1-linux-aarch64.tar.gz"
-        arm64.sha256 = "1728d26f398b58156411f80b871a2d5a0825ae446a8bec70a01a952fe7c707cb"
-        amd64.url = "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.11.1-linux-x86_64.tar.gz"
-        amd64.sha256 = "dd8572e4f50ffbe4079cce315b17c25e3cebaa02fd7eb134d2aa222703459780"
+        arm64.url = "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-9.2.3-linux-aarch64.tar.gz"
+        arm64.sha256 = "63776a188d1ff7c963f8f48062a8bccf5d50657fc122f692809b365900b1c26c"
+        amd64.url = "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-9.2.3-linux-x86_64.tar.gz"
+        amd64.sha256 = "beb8793d30d6e5f6f49fa0e9f1a9d9b01a7eb7ecd535b494c38492f9e1111275"
 
     [resources.system_user]
 
